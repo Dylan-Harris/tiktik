@@ -133,6 +133,7 @@ const Upload = () => {
                     <video
                       className='rounded-xl h-[462px] mt-16 bg-black'
                       controls
+                      autoPlay={true}
                       loop
                       src={videoAsset?.url}
                     />
